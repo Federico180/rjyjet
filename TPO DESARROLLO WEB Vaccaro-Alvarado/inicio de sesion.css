@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+
+.container-fluid{background: url(https://i.pinimg.com/550x/c1/d5/91/c1d591ab0fbe8b9a7eeb686213a899ba.jpg); background-position: center center; height: 100vh;}
+.medio{top: 35%;}
+.inicio {
+  width: 20em;
+  margin-left: 32em;
+  margin-top: 2em;
+}
+@media only screen and (min-width: 768px){
+
+  * { 
+       box-sizing: border-box;
+      }
+  
+body {
+  margin:0;   
+}
+
+nav {
+  text-align: end;
+}
+}

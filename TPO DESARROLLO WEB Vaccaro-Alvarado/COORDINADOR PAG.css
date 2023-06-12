@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  } 
+  .container-fluid{background: url(https://fondosmil.com/fondo/19945.jpg); background-position: center center; height: 120vh;}
+.title {
+    background-color: black;
+    color: rgb(167, 167, 232);
+}
+button.boton-feliz {
+    width: 50px;
+    height: 40px;
+    top: 50%;
+    font-family: Helvetica;
+}
+@media screen and (max-width: 400px) {
+    button.boton-feliz {
+        width: 100%;
+    }
+}
+.hijos {
+    top: 50%
+}
+h2 {
+    font-family: helvetica;
+}
+label {
+    font-family: helvetica;
+}

@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  } 
+.container-fluid{background: url(https://i.pinimg.com/236x/b1/07/46/b10746f36f8b0a0dd04912e054a82ed4.jpg); background-position: center; height: 100vh; background-repeat: no-repeat; background-size: cover;}
+.title {
+    background-color: black;
+}
+.pregunta {
+    background-color: black;
+    font-size: 20px;
+}
+a.boton-enviar {
+    width: 480px;
+    height: 40px;
+    top: 50%;
+}
+a.boton-volver {
+    width: 480px;
+    height: 40px;
+}
+@media screen and (max-width: 400px) {
+    button.boton-feliz {
+        width: 100%;
+    }
+}
+.hijos {
+    top: 50%
+}

@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+  } 
+.container-fluid{background: url(https://fondosmil.com/fondo/19945.jpg); background-position: center center; height: 128vh; width: 70vh;}
+.medio{top: 35%;}
+.title {
+    background-color: black;
+    left: 40%;
+}
+strong {
+    border: solid black;
+    background-color: black;
+}
+.imgs {
+    width: 20px;
+}
+@media screen and (max-width: 400px) {
+    .card {
+        width: 100%;
+    }
+    .container-fluid {
+        background-position: center center;
+        height: 128vh;
+        width: 100%;
+    }
+}
+.encuestas {
+    width: 110%;
+}
